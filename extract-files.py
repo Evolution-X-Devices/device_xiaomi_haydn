@@ -53,6 +53,12 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('remote_handle64_invoke')
         .clear_symbol_version('remote_handle64_open')
         .clear_symbol_version('remote_register_buf_attr'),
+    (
+    'vendor/lib64/hw/camera.qcom.so',Add commentMore actions
+    'vendor/lib64/hw/com.qti.chi.override.so',
+    'vendor/lib64/libcamxcommonutils.so',
+    'vendor/lib64/libmialgoengine.so',
+    ): blob_fixup().add_needed('libprocessgroup_shim.so'),
 }
 
 module = ExtractUtilsModule(
