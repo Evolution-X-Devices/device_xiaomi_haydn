@@ -27,6 +27,12 @@
     "branch"     : "15"
   },
   {
+    "remote"     : "github-non-los",
+    "repository" : "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "branch"     : "lineage-22.2"
+  },
+  {
     "remote"     : "gitlab",
     "repository" : "Hexdare/haydn-miuicamera",
     "target_path": "vendor/xiaomi/haydn-miuicamera",
