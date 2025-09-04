@@ -24,7 +24,7 @@
     "remote"     : "github-non-los",
     "repository" : "Haydn-Lab/hardware_dolby",
     "target_path": "hardware/dolby",
-    "branch"     : "15"
+    "branch"     : "16"
   },
   {
     "remote"     : "github-non-los",
