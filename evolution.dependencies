@@ -45,8 +45,9 @@
     "branch"     : "fourteen"
   },
   {
-    "repository" : "kernel_xiaomi_haydn",
+    "remote"     : "github-non-los",
+    "repository" : "Haydn-Lab/kernel_xiaomi_haydn",
     "target_path": "kernel/xiaomi/sm8350",
-    "branch"     : "bka"
+    "branch"     : "lineage-22.2-NO-KSU"
   }
 ]
